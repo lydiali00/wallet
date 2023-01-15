@@ -1,0 +1,47 @@
+{
+  "name": "wallet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@gnosis.pm/safe-apps-wagmi": "^1.2.0",
+    "@wagmi/core": "^0.8.14",
+    "@walletconnect/sign-client": "^2.2.1",
+    "@walletconnect/web3wallet": "^1.0.0",
+    "@web3modal/ethereum": "^2.0.0-rc.3",
+    "@web3modal/html": "^2.0.0-rc.3",
+    "@web3modal/react": "^2.0.0-rc.3",
+    "@web3modal/standalone": "^2.0.0-rc.2",
+    "core-js": "^3.8.3",
+    "ethers": "^5.7.2",
+    "next": "^13.1.2",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0",
+    "wagmi": "^0.10.10"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "typescript": "~4.5.5"
+  }
+}
